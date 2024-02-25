@@ -1,0 +1,20 @@
+Make all the ui using imgui
+animation file format 
+drag and drop files to the window 
+show the files and let the user arrange the images frame by frame
+let the user arrange the speed 
+export a zip file including a setting file and pack the animation into the single png file (using stb_image)
+this zip file will be used by game for easier loading of asset
+
+
+https://www.glfw.org/docs/latest/input.html#path_drop
+
+feature to view animation without any other stuffs
+
+
+app structure
+
+while running
+    handle input
+    render app
+    cleanup
